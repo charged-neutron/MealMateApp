@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/backgroundColor">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/mealmate"
+        android:contentDescription="Logo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="48dp"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to MealMate"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/textPrimary"
+        app:layout_constraintTop_toBottomOf="@id/ivLogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnMessAdminLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Login as Mess Admin"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/primaryColor"
+        style="@style/Widget.MaterialComponents.Button"/>
+
+    <Button
+        android:id="@+id/btnNgoLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Login as NGO"
+        app:layout_constraintTop_toBottomOf="@id/btnMessAdminLogin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/primaryColor"
+        style="@style/Widget.MaterialComponents.Button"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

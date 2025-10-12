@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "291355238929",
+    "project_id": "platepal2",
+    "storage_bucket": "platepal2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291355238929:android:ad4dd2cf9ab372b75c07b0",
+        "android_client_info": {
+          "package_name": "com.example.platepal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlNvwbh-oupwqmWUkUo1FvbaDIB85wn9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="100dp"
+    android:viewportWidth="200"
+    android:viewportHeight="100">
+
+    <!-- Axes -->
+    <path
+        android:strokeColor="#888888"
+        android:strokeWidth="1"
+        android:pathData="M10,90 H190 M10,90 V10"/>
+
+    <!-- Y-axis labels (as lines) -->
+    <path
+        android:strokeColor="#DDDDDD"
+        android:strokeWidth="0.5"
+        android:pathData="M10,70 H190 M10,50 H190 M10,30 H190"/>
+
+    <!-- Bars -->
+    <path
+        android:fillColor="#4285F4"
+        android:pathData="M30,60 h20 v30 h-20 z"/>
+    <path
+        android:fillColor="#4285F4"
+        android:pathData="M60,40 h20 v50 h-20 z"/>
+    <path
+        android:fillColor="#4285F4"
+        android:pathData="M90,70 h20 v20 h-20 z"/>
+    <path
+        android:fillColor="#4285F4"
+        android:pathData="M120,50 h20 v40 h-20 z"/>
+    <path
+        android:fillColor="#4285F4"
+        android:pathData="M150,30 h20 v60 h-20 z"/>
+
+</vector>

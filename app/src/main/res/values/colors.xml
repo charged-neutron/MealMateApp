@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primaryColor">#00A36C</color> <!-- Teal-green -->
+    <color name="primaryLight">#7AE1B6</color>
+    <color name="primaryDark">#00784E</color>
+    <color name="accentColor">#FFB703</color>
+    <color name="backgroundColor">#FAFAFA</color>
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+
+    <!-- Eco-friendly color palette -->
+    <color name="eco_green_primary">#2E8B57</color> <!-- SeaGreen -->
+    <color name="eco_text_primary">#2F4F4F</color> <!-- DarkSlateGray -->
+    <color name="eco_text_secondary">#696969</color> <!-- DimGray -->
+    <color name="eco_card_background">#FFFFFF</color>
+</resources>

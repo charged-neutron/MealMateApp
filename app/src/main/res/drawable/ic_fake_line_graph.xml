@@ -1,0 +1,54 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="100dp"
+    android:viewportWidth="200"
+    android:viewportHeight="100">
+
+    <!-- Axes -->
+    <path
+        android:strokeColor="#AAAAAA"
+        android:strokeWidth="0.5"
+        android:pathData="M10,90 H190 M10,90 V10"/>
+
+    <!-- Y-axis grid lines -->
+    <path
+        android:strokeColor="#DDDDDD"
+        android:strokeWidth="0.5"
+        android:pathData="M10,70 H190 M10,50 H190 M10,30 H190"/>
+
+    <!-- X-axis labels (ticks for days) -->
+    <path
+        android:strokeColor="#AAAAAA"
+        android:strokeWidth="1"
+        android:pathData="M30,90 v2 M55,90 v2 M80,90 v2 M105,90 v2 M130,90 v2 M155,90 v2 M180,90 v2"/>
+
+    <!-- Line Graph Path -->
+    <path
+        android:strokeColor="#4285F4"
+        android:strokeWidth="1.5"
+        android:pathData="M30,70 L55,50 L80,60 L105,40 L130,30 L155,55 L180,20"/>
+
+    <!-- Points on the line -->
+    <path
+        android:fillColor="#4285F4"
+        android:pathData="M30,70m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <path
+        android:fillColor="#4285F4"
+        android:pathData="M55,50m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <path
+        android:fillColor="#4285F4"
+        android:pathData="M80,60m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <path
+        android:fillColor="#4285F4"
+        android:pathData="M105,40m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <path
+        android:fillColor="#4285F4"
+        android:pathData="M130,30m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <path
+        android:fillColor="#4285F4"
+        android:pathData="M155,55m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <path
+        android:fillColor="#4285F4"
+        android:pathData="M180,20m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+
+</vector>
