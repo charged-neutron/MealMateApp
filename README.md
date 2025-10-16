@@ -40,5 +40,3 @@ Its purpose is to ensure that **leftover food from messes** is **donated efficie
 | **Backend** | Firebase Authentication, Firebase Realtime Database |
 | **IDE** | Android Studio |
 
-You can include your app screenshots here:
-
